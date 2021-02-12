@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="table">
+    <file>search_table_view.png</file>
+  </qresource>
+  <qresource prefix="tree">
+    <file>search_tree_view.png</file>
+  </qresource>
+</RCC>

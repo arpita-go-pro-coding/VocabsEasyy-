@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="set_target">
+    <file>set_target.jpg</file>
+  </qresource>
+</RCC>

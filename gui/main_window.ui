@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>874</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>850</width>
+    <height>400</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>875</width>
+    <height>400</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>VocabsEasyy</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>icon_pic_study.ico</normaloff>icon_pic_study.ico</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 170, 127);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <widget class="QFrame" name="frame">
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_3">
+       <item row="0" column="0">
+        <widget class="QFrame" name="frame_2">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QGridLayout" name="gridLayout">
+          <item row="0" column="0">
+           <widget class="QLabel" name="main_img_label">
+            <property name="maximumSize">
+             <size>
+              <width>450</width>
+              <height>500</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap resource="../../Pop/proj-bckup/VocabsEasyy/gui/main_win.qrc">:/learn_german/learn_german.jpg</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QFrame" name="frame_3">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <widget class="QLabel" name="main_heading_label">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>10</y>
+            <width>391</width>
+            <height>81</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>18</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>What would you like to learn???</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="main_options_comboBox">
+          <property name="geometry">
+           <rect>
+            <x>90</x>
+            <y>110</y>
+            <width>211</width>
+            <height>25</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>16</pointsize>
+           </font>
+          </property>
+          <property name="toolTip">
+           <string>Select option to start</string>
+          </property>
+          <item>
+           <property name="text">
+            <string>Verbs</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Prepositions</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Adjectives</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Nouns</string>
+           </property>
+          </item>
+         </widget>
+         <widget class="QPushButton" name="main_go_pushButton">
+          <property name="geometry">
+           <rect>
+            <x>220</x>
+            <y>220</y>
+            <width>191</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>16</pointsize>
+           </font>
+          </property>
+          <property name="toolTip">
+           <string>Start Learning!</string>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(0, 85, 255);</string>
+          </property>
+          <property name="text">
+           <string>Go Learn!!!</string>
+          </property>
+         </widget>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>874</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuAdmin_Access">
+    <property name="title">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="../../Pop/proj-bckup/VocabsEasyy/gui/main_win.qrc">
+      <normaloff>:/admin_access/admin_access.png</normaloff>:/admin_access/admin_access.png</iconset>
+    </property>
+    <widget class="QMenu" name="menuVerb">
+     <property name="title">
+      <string>Verb</string>
+     </property>
+     <addaction name="actionInsert_Verb"/>
+     <addaction name="actionSearch_Verb"/>
+     <addaction name="actionModify_Verb"/>
+     <addaction name="actionDelete_Verb"/>
+    </widget>
+    <widget class="QMenu" name="menuPreposition">
+     <property name="title">
+      <string>Preposition</string>
+     </property>
+     <addaction name="actionInsert_Preposition"/>
+     <addaction name="actionSearch_Preposition"/>
+     <addaction name="actionModify_Preposition"/>
+     <addaction name="actionDelete_Preposition"/>
+    </widget>
+    <widget class="QMenu" name="menuAdjective">
+     <property name="title">
+      <string>Adjective</string>
+     </property>
+     <addaction name="actionInsert_Adjective"/>
+     <addaction name="actionSearch_Adjective"/>
+     <addaction name="actionModify_Adjective"/>
+     <addaction name="actionDelete_Adjective"/>
+    </widget>
+    <widget class="QMenu" name="menuNoun">
+     <property name="title">
+      <string>Noun</string>
+     </property>
+     <addaction name="actionInsert_Noun"/>
+     <addaction name="actionSearch_Noun"/>
+     <addaction name="actionModify_Noun"/>
+     <addaction name="actionDelete_Noun"/>
+    </widget>
+    <addaction name="menuVerb"/>
+    <addaction name="menuPreposition"/>
+    <addaction name="menuAdjective"/>
+    <addaction name="menuNoun"/>
+    <addaction name="actionExit"/>
+   </widget>
+   <addaction name="menuAdmin_Access"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionExit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionInsert_Verb">
+   <property name="text">
+    <string>Insert Verb</string>
+   </property>
+  </action>
+  <action name="actionSearch_Verb">
+   <property name="text">
+    <string>Search Verb</string>
+   </property>
+  </action>
+  <action name="actionModify_Verb">
+   <property name="text">
+    <string>Modify Verb</string>
+   </property>
+  </action>
+  <action name="actionDelete_Verb">
+   <property name="text">
+    <string>Delete Verb</string>
+   </property>
+  </action>
+  <action name="actionInsert_Preposition">
+   <property name="text">
+    <string>Insert Preposition</string>
+   </property>
+  </action>
+  <action name="actionSearch_Preposition">
+   <property name="text">
+    <string>Search Preposition</string>
+   </property>
+  </action>
+  <action name="actionModify_Preposition">
+   <property name="text">
+    <string>Modify Preposition</string>
+   </property>
+  </action>
+  <action name="actionDelete_Preposition">
+   <property name="text">
+    <string>Delete Preposition</string>
+   </property>
+  </action>
+  <action name="actionInsert_Adjective">
+   <property name="text">
+    <string>Insert Adjective</string>
+   </property>
+  </action>
+  <action name="actionSearch_Adjective">
+   <property name="text">
+    <string>Search Adjective</string>
+   </property>
+  </action>
+  <action name="actionModify_Adjective">
+   <property name="text">
+    <string>Modify Adjective</string>
+   </property>
+  </action>
+  <action name="actionDelete_Adjective">
+   <property name="text">
+    <string>Delete Adjective</string>
+   </property>
+  </action>
+  <action name="actionInsert_Noun">
+   <property name="text">
+    <string>Insert Noun</string>
+   </property>
+  </action>
+  <action name="actionSearch_Noun">
+   <property name="text">
+    <string>Search Noun</string>
+   </property>
+  </action>
+  <action name="actionModify_Noun">
+   <property name="text">
+    <string>Modify Noun</string>
+   </property>
+  </action>
+  <action name="actionDelete_Noun">
+   <property name="text">
+    <string>Delete Noun</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="../../Pop/proj-bckup/VocabsEasyy/gui/main_win.qrc"/>
+ </resources>
+ <connections/>
+</ui>

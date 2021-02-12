@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="img1">
+    <file>learn_verbs.png</file>
+  </qresource>
+  <qresource prefix="img2">
+    <file>get_ready.png</file>
+  </qresource>
+</RCC>

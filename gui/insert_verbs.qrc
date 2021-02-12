@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="insert_verbs_table_view">
+    <file>table_view.png</file>
+  </qresource>
+  <qresource prefix="insert_verbs_tree_view">
+    <file>tree_view.png</file>
+  </qresource>
+</RCC>

@@ -1,0 +1,11 @@
+<RCC>
+  <qresource prefix="learn_german">
+    <file>learn_german.jpg</file>
+  </qresource>
+  <qresource prefix="icon">
+    <file>icon_pic_study.ico</file>
+  </qresource>
+  <qresource prefix="admin_access">
+    <file>admin_access.png</file>
+  </qresource>
+</RCC>
